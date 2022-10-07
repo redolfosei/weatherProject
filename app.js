@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express  = require('express');
 const https = require('https'); //native standard node model or library to help with a get request 
 const bodyParser = require("body-parser"); 
